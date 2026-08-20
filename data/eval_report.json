@@ -1,0 +1,332 @@
+{
+  "results": [
+    {
+      "id": 1,
+      "type": "straightforward",
+      "question": "What is LangChain?",
+      "answer": "Based on the provided context, LangChain is an agent framework that maintains open source packages to help developers build agents [Source: https://docs.langchain.com/oss/python/concepts/products]. LangChain agents are built on LangGraph [Source: https://docs.langchain.com/oss/python/langchain/event",
+      "sources": [
+        "https://docs.langchain.com/oss/python/concepts/products",
+        "https://docs.langchain.com/oss/python/langchain/frontend/integrations/ai-elements",
+        "https://docs.langchain.com/oss/python/langchain/retrieval",
+        "https://docs.langchain.com/oss/python/langchain/context-engineering",
+        "https://docs.langchain.com/oss/python/langchain/event-streaming"
+      ],
+      "enough_info": true,
+      "expected_keywords": [
+        "framework",
+        "applications",
+        "LLM"
+      ],
+      "matched_keywords": [
+        "framework"
+      ],
+      "score": 0.33,
+      "tokens": 1513
+    },
+    {
+      "id": 2,
+      "type": "straightforward",
+      "question": "How do you install LangChain?",
+      "answer": "You can install LangChain using any of the following package management options:\n\n* **Using `pip`:**\n  ```bash\n  pip install -U langchain\n  ```\n\n* **Using `uv`:**\n  ```bash\n  uv init\n  uv add langchain\n  uv sync\n  ```\n\n* **Using a virtual environment (`venv`):**\n  ```bash\n  python3 -m venv .venv\n  s",
+      "sources": [
+        "https://docs.langchain.com/oss/python/langchain/quickstart",
+        "https://docs.langchain.com/oss/python/langchain/install",
+        "https://docs.langchain.com/oss/python/langchain/context-engineering",
+        "https://docs.langchain.com/oss/python/langchain/knowledge-base",
+        "https://docs.langchain.com/oss/python/langchain/frontend/integrations/ai-elements"
+      ],
+      "enough_info": true,
+      "expected_keywords": [
+        "pip install",
+        "langchain"
+      ],
+      "matched_keywords": [
+        "pip install",
+        "langchain"
+      ],
+      "score": 1.0,
+      "tokens": 3147
+    },
+    {
+      "id": 3,
+      "type": "paraphrased",
+      "question": "What's the method to set up LangChain on my system?",
+      "answer": "To set up LangChain integrations and packages on your system, you can install them using **`pip`** or **`uv`**:\n\n### Using `pip`\n```bash\npip install -U langchain-anthropic\npip install -U \"langchain[aws]\"\n```\n\n### Using `uv`\n```bash\nuv add langchain-openai\nuv add langchain-anthropic\nuv add \"langchain",
+      "sources": [
+        "https://docs.langchain.com/oss/python/langchain/install",
+        "https://docs.langchain.com/oss/python/langchain/deep-agent-from-scratch",
+        "https://docs.langchain.com/oss/python/langchain/tools",
+        "https://docs.langchain.com/oss/python/langchain/overview",
+        "https://docs.langchain.com/oss/python/langchain/models"
+      ],
+      "enough_info": true,
+      "expected_keywords": [
+        "pip",
+        "install",
+        "langchain"
+      ],
+      "matched_keywords": [
+        "pip",
+        "install",
+        "langchain"
+      ],
+      "score": 1.0,
+      "tokens": 4726
+    },
+    {
+      "id": 4,
+      "type": "paraphrased",
+      "question": "Can you explain the purpose of LangChain in simple terms?",
+      "answer": "Based on the documentation, LangChain gives developers maximum flexibility and control when building AI applications and agents [Source: https://docs.langchain.com/oss/python/langchain/philosophy]. \n\nIts main purposes are:\n\n* **Standardizing Model Interfaces:** Different AI model providers (such as ",
+      "sources": [
+        "https://docs.langchain.com/oss/python/langchain/philosophy",
+        "https://docs.langchain.com/oss/python/langchain/quickstart",
+        "https://docs.langchain.com/oss/python/langchain/component-architecture",
+        "https://docs.langchain.com/oss/python/concepts/providers-and-models",
+        "https://docs.langchain.com/oss/python/langchain/models"
+      ],
+      "enough_info": true,
+      "expected_keywords": [
+        "framework",
+        "LLM",
+        "applications"
+      ],
+      "matched_keywords": [
+        "applications"
+      ],
+      "score": 0.33,
+      "tokens": 6449
+    },
+    {
+      "id": 5,
+      "type": "multi_page",
+      "question": "What are the main components of LangChain and how do they work together?",
+      "answer": "Based on the provided documentation, the main components and abstractions include:\n\n* **Models**: Provide a standard interface across providers for chat models, embeddings, and more. A model is selected by passing an identifier string (such as `\"provider:model\"`) or an initialized model instance [So",
+      "sources": [
+        "https://docs.langchain.com/oss/python/langchain/agents",
+        "https://docs.langchain.com/oss/python/concepts/products",
+        "https://docs.langchain.com/oss/python/langchain/philosophy",
+        "https://docs.langchain.com/oss/python/langchain/knowledge-base",
+        "https://docs.langchain.com/oss/python/langchain/overview"
+      ],
+      "enough_info": true,
+      "expected_keywords": [
+        "agent",
+        "model",
+        "tools",
+        "system_prompt"
+      ],
+      "matched_keywords": [
+        "agent",
+        "model",
+        "tools"
+      ],
+      "score": 0.75,
+      "tokens": 8487
+    },
+    {
+      "id": 6,
+      "type": "multi_page",
+      "question": "How does LangChain handle document loading, splitting, and embedding in a RAG pipeline?",
+      "answer": "Based on the provided context, LangChain handles parts of this process through its component layers:\n\n* **Document Loading / Input Processing:** Raw data is transformed into structured documents using document loaders [Source: https://docs.langchain.com/oss/python/langchain/component-architecture] [",
+      "sources": [
+        "https://docs.langchain.com/oss/python/langchain/knowledge-base",
+        "https://docs.langchain.com/oss/python/langchain/quickstart",
+        "https://docs.langchain.com/oss/python/langchain/component-architecture",
+        "https://docs.langchain.com/oss/python/concepts/memory",
+        "https://docs.langchain.com/oss/python/langchain/retrieval"
+      ],
+      "enough_info": false,
+      "expected_keywords": [
+        "document loader",
+        "split",
+        "embedding",
+        "vector"
+      ],
+      "matched_keywords": [
+        "document loader",
+        "split",
+        "embedding",
+        "vector"
+      ],
+      "score": 1.0,
+      "tokens": 10141
+    },
+    {
+      "id": 7,
+      "type": "technical",
+      "question": "What is create_agent and how do you use it to build an agent?",
+      "answer": "`create_agent` is a function provided by `langchain.agents` used to construct and initialize an agent by combining a model, tools, and system prompts [Source: https://docs.langchain.com/oss/python/langchain/quickstart, Source: https://docs.langchain.com/oss/python/langchain/agents].\n\n### How to use ",
+      "sources": [
+        "https://docs.langchain.com/oss/python/langchain/retrieval",
+        "https://docs.langchain.com/oss/python/langchain/quickstart",
+        "https://docs.langchain.com/oss/python/langchain/deep-agent-from-scratch",
+        "https://docs.langchain.com/oss/python/langchain/frontend/integrations/copilotkit",
+        "https://docs.langchain.com/oss/python/langchain/agents"
+      ],
+      "enough_info": true,
+      "expected_keywords": [
+        "create_agent",
+        "model",
+        "tools",
+        "invoke"
+      ],
+      "matched_keywords": [
+        "create_agent",
+        "model",
+        "tools",
+        "invoke"
+      ],
+      "score": 1.0,
+      "tokens": 12041
+    },
+    {
+      "id": 8,
+      "type": "technical",
+      "question": "How do you create a custom tool for a LangChain agent?",
+      "answer": "To create a custom tool for a LangChain agent, you define a Python function and apply the `@tool` decorator from `langchain.tools`. \n\n### Key Steps & Best Practices:\n1. **Use the `@tool` decorator:** Decorate your function with `@tool` (or `@tool(parse_docstring=True)`).\n2. **Provide clear descripti",
+      "sources": [
+        "https://docs.langchain.com/oss/python/langchain/quickstart",
+        "https://docs.langchain.com/oss/python/langchain/models",
+        "https://docs.langchain.com/oss/python/langchain/context-engineering",
+        "https://docs.langchain.com/oss/python/langchain/overview",
+        "https://docs.langchain.com/oss/python/langchain/tools"
+      ],
+      "enough_info": true,
+      "expected_keywords": [
+        "@tool",
+        "tool",
+        "agent",
+        "decorator"
+      ],
+      "matched_keywords": [
+        "@tool",
+        "tool",
+        "agent",
+        "decorator"
+      ],
+      "score": 1.0,
+      "tokens": 14084
+    },
+    {
+      "id": 9,
+      "type": "misleading",
+      "question": "How do I use LangChain's built-in vector database to store data?",
+      "answer": "I don't have enough information from the website to answer this question.",
+      "sources": [
+        "https://docs.langchain.com/oss/python/langchain/retrieval",
+        "https://docs.langchain.com/oss/python/concepts/memory",
+        "https://docs.langchain.com/oss/python/langchain/component-architecture",
+        "https://docs.langchain.com/oss/python/langchain/overview",
+        "https://docs.langchain.com/oss/python/langchain/knowledge-base"
+      ],
+      "enough_info": false,
+      "expected_keywords": [
+        "Chroma",
+        "vector store",
+        "install",
+        "external"
+      ],
+      "matched_keywords": [],
+      "score": 0.8,
+      "tokens": 15553
+    },
+    {
+      "id": 10,
+      "type": "misleading",
+      "question": "What is the maximum token limit for LangChain's context window?",
+      "answer": "I don't have enough information from the website to answer this question. The provided documentation mentions that LLMs have a \"finite context\" [Source: https://docs.langchain.com/oss/python/langchain/retrieval], but it does not specify a maximum token limit for LangChain's context window.",
+      "sources": [
+        "https://docs.langchain.com/oss/python/langchain/models",
+        "https://docs.langchain.com/oss/python/langchain/quickstart",
+        "https://docs.langchain.com/oss/python/langchain/context-engineering",
+        "https://docs.langchain.com/oss/python/langchain/retrieval",
+        "https://docs.langchain.com/oss/python/langchain/tools"
+      ],
+      "enough_info": false,
+      "expected_keywords": [
+        "model",
+        "provider",
+        "varies"
+      ],
+      "matched_keywords": [],
+      "score": 0.8,
+      "tokens": 17140
+    },
+    {
+      "id": 11,
+      "type": "unanswerable",
+      "question": "What is the revenue of LangChain Inc in 2024?",
+      "answer": "I don't have enough information from the website to answer this question.",
+      "sources": [
+        "https://docs.langchain.com/oss/python/langchain/overview",
+        "https://docs.langchain.com/oss/python/langchain/models",
+        "https://docs.langchain.com/oss/python/langchain/knowledge-base",
+        "https://docs.langchain.com/oss/python/langchain/frontend/integrations/ai-elements",
+        "https://docs.langchain.com/oss/python/langchain/quickstart"
+      ],
+      "enough_info": false,
+      "expected_keywords": [],
+      "matched_keywords": [],
+      "score": 1.0,
+      "tokens": 18240
+    },
+    {
+      "id": 12,
+      "type": "unanswerable",
+      "question": "How does LangChain compare to LlamaIndex in benchmark tests?",
+      "answer": "I don't have enough information from the website to answer this question.",
+      "sources": [
+        "https://docs.langchain.com/oss/python/langchain/philosophy",
+        "https://docs.langchain.com/oss/python/langchain/models",
+        "https://docs.langchain.com/oss/python/langchain/overview",
+        "https://docs.langchain.com/oss/python/langchain/knowledge-base",
+        "https://docs.langchain.com/oss/python/langchain/event-streaming"
+      ],
+      "enough_info": false,
+      "expected_keywords": [],
+      "matched_keywords": [],
+      "score": 1.0,
+      "tokens": 19773
+    }
+  ],
+  "summary": {
+    "total_questions": 12,
+    "average_score": 0.834,
+    "by_type": {
+      "straightforward": 0.665,
+      "paraphrased": 0.665,
+      "multi_page": 0.875,
+      "technical": 1.0,
+      "misleading": 0.8,
+      "unanswerable": 1.0
+    },
+    "cost_summary": {
+      "total_input_tokens": 17331,
+      "total_output_tokens": 2442,
+      "total_cost_usd": 0.0026878500000000003,
+      "by_operation": {
+        "query_rewrite": {
+          "count": 12,
+          "input_tokens": 602,
+          "output_tokens": 294,
+          "cost_usd": 0.0001778
+        },
+        "query_embedding": {
+          "count": 12,
+          "input_tokens": 294,
+          "output_tokens": 0,
+          "cost_usd": 7.3500000000000025e-06
+        },
+        "answer_generation": {
+          "count": 12,
+          "input_tokens": 16435,
+          "output_tokens": 2148,
+          "cost_usd": 0.0025027
+        }
+      },
+      "call_count": 36
+    }
+  }
+}
